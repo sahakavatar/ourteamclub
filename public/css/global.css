@@ -50,42 +50,28 @@
     font-style: normal;
 }
 
-
-
-.font-main-light {
-    font-family: 'Roboto-Light', sans-serif;
-}
 .font-main-reg {
-    font-family: 'Roboto-Regular', sans-serif;
+    font-family: 'MuseoSansCyrl-300', sans-serif;
 }
 .font-main-bold {
-    font-family: 'Roboto-Medium', sans-serif;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
 }
-.font-sec-reg {
-    font-family: 'Oswald-Regular', sans-serif;
-}
-.font-sec-bold {
-    font-family: 'Oswald-Medium', sans-serif;
-}
+
 
 /*Colors*/
 .text-main-clr {
-    color: #353535;
+    color: #2f313b;
 }
 
 .text-sec-clr  {
-    color: #fff;
-}
-.text-gray-clr{
-    color: #7c7c7c;
-}
-.text-tert-clr {
-    color: #5184e5;
+    color: #71737a;
 }
 
-.text-light-clr {
-    color: #515151;
+.text-white-clr {
+    color: #fff;
 }
+
+
 
 :root {
     font-size: 16px;
@@ -97,15 +83,10 @@ body {
     font-size: 14px;
 }
 
-@media (min-width: 1630px) {
-    .main-max-width  {
-        max-width: 1600px;
-    }
-}
 
 body {
-    color: #353535;
-    font-family: "Roboto-Regular", sans-serif;
+    color: #2f313b;
+    font-family: 'MuseoSansCyrl-300', sans-serif;
 }
 
 ul{
@@ -121,9 +102,11 @@ a:focus, a:hover {
 textarea {
     resize: none;
 }
+
 .lh-1 {
     line-height: 1;
 }
+
 .pointer {
     cursor: pointer;
 }
