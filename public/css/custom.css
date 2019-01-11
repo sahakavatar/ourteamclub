@@ -1,0 +1,71 @@
+footer {
+  background-color: #2f313b;
+  padding: 35px 0 10px 0; }
+  footer .opc-3 {
+    opacity: .3; }
+  footer .footer-logo-social {
+    max-width: 170px;
+    width: 100%; }
+    @media screen and (max-width: 991px) {
+      footer .footer-logo-social {
+        margin: 0 auto; } }
+    footer .footer-logo-social img {
+      width: 100%; }
+    footer .footer-logo-social .footer-social {
+      margin-top: 5px; }
+      footer .footer-logo-social .footer-social li:last-of-type a {
+        margin-right: 0; }
+      footer .footer-logo-social .footer-social a {
+        background-color: #fff;
+        width: 23px;
+        height: 23px;
+        margin-right: 4px;
+        -webkit-transition: .5s ease;
+        -moz-transition: .5s ease;
+        -ms-transition: .5s ease;
+        -o-transition: .5s ease;
+        transition: .5s ease; }
+        footer .footer-logo-social .footer-social a:hover {
+          background-color: #02c894;
+          color: #2f313b; }
+  footer .footer-menu-copyright {
+    margin-left: 140px;
+    flex: auto; }
+    @media screen and (max-width: 991px) {
+      footer .footer-menu-copyright {
+        width: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 5px;
+        margin-left: 0; } }
+  @media screen and (max-width: 991px) {
+    footer .footer-menu {
+      -ms-flex-pack: center;
+      justify-content: center; } }
+  footer .footer-menu li:first-of-type a {
+    padding-left: 0; }
+  footer .footer-menu li:last-of-type a {
+    border: none; }
+  footer .footer-menu a {
+    color: white;
+    padding: 0 4px;
+    border-right: 1px solid #fff; }
+  footer .footer-copyright-secured {
+    margin-top: 30px; }
+    @media screen and (max-width: 991px) {
+      footer .footer-copyright-secured {
+        -ms-flex-pack: center;
+        justify-content: center; } }
+  footer .footer-secured {
+    margin-left: 50px; }
+    footer .footer-secured img {
+      margin-left: 10px;
+      margin-top: -4px; }
+
+/*# sourceMappingURL=custom.css.map */
