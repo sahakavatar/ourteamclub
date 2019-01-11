@@ -1,3 +1,28 @@
+.main-content-wrapper {
+  flex: auto; }
+
+.main-carousel-wrapp img {
+  height: 400px;
+  object-fit: cover;
+  font-family: 'object-fit: cover;'; }
+  @media screen and (max-width: 767px) {
+    .main-carousel-wrapp img {
+      height: 250px; } }
+.main-carousel-wrapp .carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #2f313b; }
+  .main-carousel-wrapp .carousel-indicators li.active {
+    background-color: #fff; }
+
+.home-content-desc {
+  text-align: justify;
+  padding: 40px 0; }
+  .home-content-desc .txt-ident {
+    text-indent: 50px;
+    margin-bottom: 25px; }
+
 footer {
   background-color: #2f313b;
   padding: 35px 0 10px 0; }
