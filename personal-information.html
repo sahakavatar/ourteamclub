@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal information</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="plugins/select2/select2.min.css">-->
+    <!--<link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.min.css">-->
+    <link rel="stylesheet" href="public/css/global.css">
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/custom.css">
+
+
+    <script src="public/js/jQuery3.3.1.js"></script>
+    <!--<script src="plugins/jquery-ui/jquery-ui.min.js"></script>-->
+    <!--[if lt IE 9]>
+    <script src="public/plugins/crossbrowserjs/html5shiv.js"></script>
+    <script src="public/plugins/crossbrowserjs/respond.min.js"></script>
+    <![endif]-->
+    <!--[if !IE]><!-->
+    <script src="public/plugins/crossbrowserjs/ofi.min.js"></script>
+    <script src="public/plugins/crossbrowserjs/customFit.js"></script>
+    <!--<![endif]-->
+</head>
+<body class="d-flex flex-column mh-100">
+<div class="container main-container">
+    <header class="main-header">
+        <div class="header-top d-flex">
+            <div class="header-top_left-wrap d-flex">
+                <a href="#" class="d-inline-flex align-items-center main-header_logo">
+                    <img src="public/img/main-logo.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main-content-wrapper">
+        <div class="register-steps-wrapper">
+            <div class="d-flex bs-wizard">
+                <div class="col-3 bs-wizard-step active">
+                    <div class="font-12 text-center bs-wizard-stepnum">Personal information</div>
+                    <div class="progress"></div>
+                    <a href="#"
+                       class="d-flex align-items-center justify-content-center font-11 text-white-clr bs-wizard-dot">4</a>
+                </div>
+                <div class="col-3 bs-wizard-step">
+                    <div class="font-12 text-center bs-wizard-stepnum">Client profile</div>
+                    <div class="progress"></div>
+                    <a href="#"
+                       class="d-flex align-items-center justify-content-center font-11 text-white-clr bs-wizard-dot">1</a>
+
+                </div>
+                <div class="col-3 bs-wizard-step">
+                    <div class="font-12 text-center bs-wizard-stepnum">Financial information</div>
+                    <div class="progress"></div>
+                    <a href="#"
+                       class="d-flex align-items-center justify-content-center font-11 text-white-clr bs-wizard-dot">2</a>
+                </div>
+                <div class="col-3 bs-wizard-step">
+                    <div class="font-12 text-center bs-wizard-stepnum">Review</div>
+                    <div class="progress"></div>
+                    <a href="#"
+                       class="d-flex align-items-center justify-content-center font-11 text-white-clr bs-wizard-dot">3</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-reg-steps form_personal-info">
+            <h1 class="text-center font-14 text-uppercase">DEAR MEMBER WE WILL HELP YOU TO CREATE YOUR ACCOUNT</h1>
+            <form action="">
+                <div class="form-group-title font-main-bold">
+                    Personal details
+                </div>
+                <div class="form-group d-flex align-items-center form-title">
+                    <label class="label-form"><span>*</span>Title:</label>
+                    <div class="d-flex mr-ms-radio">
+                        <div class="custom-control custom-radio check--icon">
+                            <input type="radio" checked="checked" name="radioDisabled" id="customRadioDisabled1"
+                                   class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioDisabled1">Mr. </label>
+                        </div>
+                        <div class="custom-control custom-radio check--icon">
+                            <input type="radio" name="radioDisabled" id="customRadioDisabled2" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioDisabled2">Ms. </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="col-sm-5 pl-0">
+                        <div class="form-group">
+                            <label for="firstname" class="label-form"><span>*</span>First name:</label>
+                            <input type="text" class="form-control" id="firstname">
+                        </div>
+                        <div class="form-group">
+                            <label for="maritalstatus" class="label-form"><span>*</span>Marital status:</label>
+                            <input type="text" class="form-control" id="maritalstatus">
+                        </div>
+                        <div class="form-group">
+                            <label for="nationality" class="label-form"><span>*</span>Nationality</label>
+                            <input type="text" class="form-control" id="nationality">
+                        </div>
+                    </div>
+                    <div class="col-sm-7 pl-0">
+                        <div class="form-group">
+                            <label for="familyname" class="label-form"><span>*</span>Family name:</label>
+                            <input type="text" class="form-control" id="familyname">
+                        </div>
+                        <div class="form-group data-birth-group">
+                            <label class="label-form"><span>*</span>Date of birth:</label>
+                            <div class="d-flex">
+                                <input type="text" class="form-control">
+                                <input type="text" class="form-control mx-1">
+                                <input type="text" class="form-control">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group-title font-main-bold">
+                    Legal address
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="col-sm-5 pl-0">
+                        <div class="form-group">
+                            <label for="street" class="label-form"><span>*</span>Street:</label>
+                            <input type="text" class="form-control" id="street">
+                        </div>
+                        <div class="form-group">
+                            <label for="city" class="label-form"><span>*</span>City:</label>
+                            <input type="text" class="form-control" id="city">
+                        </div>
+                        <div class="label-form mt-20">
+                            <p class="mb-1">Correspondence address</p>
+                            <p>*Send all the correspondence to a different address</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 pl-0">
+                        <div class="form-group">
+                            <label for="postcode" class="label-form"><span>*</span>Post Code:</label>
+                            <input type="text" class="form-control" id="postcode">
+                        </div>
+                        <div class="form-group">
+                            <label for="country" class="label-form"><span>*</span>Country:</label>
+                            <input type="text" class="form-control" id="country">
+                        </div>
+                        <div class="form-group  mt-20">
+                            <div class="d-flex">
+                                <div class="custom-control custom-radio check--icon">
+                                    <input type="radio" checked="checked" name="radioyesno" id="radioNo"
+                                           class="custom-control-input">
+                                    <label class="custom-control-label" for="radioNo">No </label>
+                                </div>
+                                <div class="custom-control custom-radio check--icon ml-63">
+                                    <input type="radio" name="radioyesno" id="radioYes" class="custom-control-input">
+                                    <label class="custom-control-label" for="radioYes">Yes </label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group-title font-main-bold">
+                    Contact details
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="col-sm-5 pl-0">
+                        <div class="form-group">
+                            <label for="mobilenumber" class="label-form"><span>*</span>Mobile phone number:</label>
+                            <input type="tel" class="form-control" id="mobilenumber">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailaddress" class="label-form"><span>*</span>Email address:</label>
+                            <input type="email" class="form-control" id="emailaddress">
+                        </div>
+                    </div>
+                    <div class="col-sm-7 pl-0">
+                        <div class="form-group">
+                            <label for="phonenumber" class="label-form"><span>*</span>Phone number</label>
+                            <input type="text" class="form-control" id="phonenumber">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="prev-next-step text-right">
+                <a href="#" class="text-uppercase text-main-clr">Next</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="d-flex flex-lg-nowrap flex-wrap">
+                <div class="footer-logo-social">
+                    <div class="footer-logo">
+                        <img src="public/img/main-logo.svg" alt="logo">
+                    </div>
+                    <div class="footer-social">
+                        <ul class="d-flex flex-wrap justify-content-lg-end justify-content-center">
+                            <li><a href="#"
+                                   class="d-flex align-items-center justify-content-center rounded-circle text-main-clr"><i
+                                    class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"
+                                   class="d-flex align-items-center justify-content-center rounded-circle text-main-clr"><i
+                                    class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"
+                                   class="d-flex align-items-center justify-content-center rounded-circle text-main-clr"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-menu-copyright">
+                    <ul class=" nav footer-menu font-main-bold font-11">
+                        <li>
+                            <a href="#">Site Map</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Disclaimer</a>
+                        </li>
+                        <li>
+                            <a href="#">Term of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Social Media Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Code of Ethics</a>
+                        </li>
+                        <li>
+                            <a href="#">Earning and Income</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-wrap footer-copyright-secured font-11 text-white-clr">
+                        <div class="footer-copyright">
+                            <p class="mb-0 opc-3">Copyright &#9400; 2016 OurTeamClub Ltd. All rights reserved </p>
+                        </div>
+                        <div class="footer-secured d-flex">
+                            <span class="opc-3">Website Secured By</span>
+                            <img class="align-self-baseline" src="public/img/logo-secure.png" alt="secured">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+
+<script src="public/js/bootstrap.bundle.min.js"></script>
+<!--<script src="plugins/select2/select2.full.min.js"></script>-->
+<!--<script src="public/js/main.js"></script>-->
+
+</body>
+</html>

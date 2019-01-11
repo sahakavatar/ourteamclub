@@ -18,10 +18,103 @@
 
 .home-content-desc {
   text-align: justify;
-  padding: 40px 0; }
+  padding: 40px 0;
+  background-color: #f5f5f5; }
   .home-content-desc .txt-ident {
     text-indent: 50px;
     margin-bottom: 25px; }
+
+.register-steps-wrapper {
+  margin: 10px 100px;
+  /*Form Wizard*/
+  /*END Form Wizard*/ }
+  .register-steps-wrapper .bs-wizard > .bs-wizard-step {
+    padding: 0;
+    position: relative; }
+  .register-steps-wrapper .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {
+    margin-bottom: 5px; }
+  .register-steps-wrapper .bs-wizard > .bs-wizard-step.active > .bs-wizard-dot {
+    border: 1px solid #ffffff; }
+  .register-steps-wrapper .bs-wizard > .bs-wizard-step > .bs-wizard-dot {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #02c894;
+    top: 45px;
+    left: 51%;
+    margin-top: -15px;
+    margin-left: -15px;
+    border-radius: 50%; }
+  .register-steps-wrapper .bs-wizard > .bs-wizard-step > .progress {
+    position: relative;
+    border-radius: 0;
+    height: 2px;
+    box-shadow: none;
+    margin: 20px 0;
+    background: #02c894; }
+  .register-steps-wrapper .bs-wizard > .bs-wizard-step:first-child > .progress {
+    left: 50%;
+    width: 50%; }
+  .register-steps-wrapper .bs-wizard > .bs-wizard-step:last-child > .progress {
+    width: 50%; }
+  .register-steps-wrapper .bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot {
+    pointer-events: none; }
+
+.check--icon .custom-control-label::before {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 0; }
+.check--icon .custom-control-label::after {
+  width: 10px;
+  height: 10px; }
+.check--icon .custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none; }
+.check--icon .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #fff; }
+.check--icon .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: url("../img/check-icon.svg");
+  background-size: auto;
+  top: 0; }
+
+.form-reg-steps h1 {
+  margin-bottom: 15px; }
+.form-reg-steps .form-group-title {
+  background-color: #c4c4c4;
+  padding: 9px 18px;
+  line-height: 1;
+  margin: 8px 0; }
+.form-reg-steps .form-control {
+  background-color: #d6d6d6;
+  height: 2rem;
+  border: none;
+  border-radius: 0; }
+  .form-reg-steps .form-control:focus {
+    box-shadow: none; }
+.form-reg-steps .label-form {
+  margin-left: 18px;
+  margin-bottom: 7px;
+  line-height: 1; }
+.form-reg-steps .form-group {
+  margin-bottom: 7px; }
+.form-reg-steps .prev-next-step {
+  margin-bottom: 15px; }
+.form-reg-steps.form_personal-info {
+  margin-top: 45px; }
+  .form-reg-steps.form_personal-info .mr-ms-radio {
+    margin-left: 50px; }
+    .form-reg-steps.form_personal-info .mr-ms-radio .check--icon:last-of-type {
+      margin-left: 24px; }
+  .form-reg-steps.form_personal-info .form-title {
+    margin: 25px 0; }
+  .form-reg-steps.form_personal-info .form-control {
+    max-width: 274px; }
+  .form-reg-steps.form_personal-info .data-birth-group {
+    max-width: 274px; }
+  .form-reg-steps.form_personal-info .ml-63 {
+    margin-left: 63px; }
+  .form-reg-steps.form_personal-info .mt-20 {
+    margin-top: 20px; }
 
 footer {
   background-color: #2f313b;
