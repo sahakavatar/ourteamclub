@@ -1,4 +1,212 @@
 .main-header {
-    background: #000;
-    padding: 16px 12px;
+    background: #2f313b;
+    padding-bottom: 8px;
 }
+.header-top {
+    border-bottom: 1px solid #03bdc1;
+    padding: 16px 12px;
+    margin-bottom: 3px;
+}
+
+.main-header_time {
+    background: url("../img/time-icon.png") left center no-repeat;
+    padding-left: 26px;
+}
+
+.main-header_time:not(:last-child) {
+    margin-right: 10px;
+}
+
+.main-header_logo{
+    margin-right: 25px;
+}
+
+.main-header .navbar-collapse {
+    width: 100%;
+}
+
+
+.main-header_lang-select + .select2-container--default .select2-selection--single .select2-selection__arrow {
+     display: none;
+ }
+
+.main-header_lang-select + .select2-container--default .select2-selection--single,
+.select2-container--open .select2-dropdown--below {
+    background: #444754;
+    border-color: #444754;
+    border-radius: 0;
+}
+
+.main-header_lang-select + .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #fff;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.select2-container--default .select2-results__option,
+.bootstrap-select .dropdown-item.active{
+background: #444754 !important;
+color: #fff !important;
+}
+
+.main-header_login-reg-outer {
+    margin-right: 20px;
+}
+
+.main-header_login-reg-outer a:hover {
+    color: #fff;
+}
+
+.header-bottom {
+    background: #e6e6e7;
+}
+
+.header-bottom .navbar {
+    padding: 0;
+}
+
+.main-header .navbar-nav .nav-item .nav-link{
+    padding: 5px 14px;
+    color: #71737a;
+}
+
+.main-header .navbar-nav .nav-item .nav-link:hover {
+    background: #6eb8ba;
+    color: #fff;
+}
+
+.main-header_left_nav {
+    margin-right: 47px;
+}
+
+.main-header .navbar-toggler {
+    border: 0;
+}
+
+.main-header .navbar-toggler:focus {
+   outline: none;
+}
+
+.main-header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#03bdc1' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: 0;
+}
+
+
+@media (max-width: 767px) and (min-width: 441px) {
+    .main-header {
+        display: flex;
+        position: relative;
+    }
+
+    .header-bottom .navbar {
+        position: static;
+    }
+
+    .main-header .navbar-collapse {
+        position: absolute;
+        left: 0;
+        top: 100%;
+    }
+
+    .header-bottom {
+        border-bottom: 1px solid #03bdc1;
+        padding: 0;
+        width: 10%;
+    }
+
+    .header-top {
+        margin-bottom: 0;
+    }
+
+    .main-header .navbar-toggler {
+        padding-top: 12px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .main-header .navbar-collapse {
+        background: #2f313b;
+    }
+
+
+    .header-bottom {
+        background: transparent;
+}
+
+    .main-header .navbar-nav .nav-item .nav-link {
+        color: #fff;
+    }
+
+    .main-header_left_nav {
+        margin-right: 0;
+    }
+    
+    .main-header .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .main-header_left_nav {
+        margin-bottom: 15px;
+    }
+
+}
+
+
+@media (max-width: 940px) {
+    .main-header_times-outer {
+        background: url("../img/time-icon.png") left top no-repeat;
+        flex-direction: column;
+    }
+
+    .main-header_time {
+        background: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .header-top,
+    .header-top_left-wrap {
+        align-items: flex-start;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .header-top_left-wrap {
+        flex-direction: column;
+    }
+
+    .main-header_logo {
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width: 440px) {
+
+    .main-header .navbar-toggler {
+        padding: 0;
+        margin-left: auto;
+    }
+
+    .header-bottom {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .header-top_right-wrap {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .main-header_login-reg-outer {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+
+
