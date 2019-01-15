@@ -118,7 +118,7 @@ color: #fff !important;
 
     .main-header_times-outer {
         background: url("../img/time-icon.png") left top no-repeat;
-        flex-direction: column;
+        /*flex-direction: column;*/
     }
 
     .main-header_time {
@@ -134,11 +134,12 @@ color: #fff !important;
 }
 
 
-@media (max-width: 768px) and (min-width: 441px) {
+@media (max-width: 991px) and (min-width: 541px) {
     .main-header {
         display: flex;
         justify-content: space-between;
         position: relative;
+        flex: none;
     }
 
     .header-bottom .navbar {
@@ -149,6 +150,7 @@ color: #fff !important;
         position: absolute;
         left: 0;
         top: 100%;
+        z-index: 9;
     }
 
     .header-bottom {
@@ -175,7 +177,7 @@ color: #fff !important;
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
 
     .main-header .navbar-collapse {
         background: #2f313b;
@@ -201,8 +203,19 @@ color: #fff !important;
 }
 
 
-@media (max-width: 440px) {
-
+@media (max-width: 540px) {
+    .main-header_logo{
+        margin-bottom: 10px;
+    }
+    .main-header_times-outer{
+        background: none;
+    }
+    .main-header_time{
+        padding-left: 5px;
+    }
+    .main-header_time:not(:last-child){
+        margin-right: 5px;
+    }
     .main-header .navbar-toggler {
         padding: 0;
         margin-left: auto;
