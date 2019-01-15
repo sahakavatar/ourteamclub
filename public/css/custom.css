@@ -280,10 +280,11 @@
   display: block;
   padding: .75rem; }
 
-.dashboard-pages .title-head {
+.title-head.main-title {
   background: #d6d6d6;
   padding: 8px 15px;
   margin-bottom: 10px; }
+
 .dashboard-pages .left-wrapper {
   text-align: center; }
   .dashboard-pages .left-wrapper .person-img {
@@ -339,6 +340,38 @@
   padding-right: 100px; }
 .dashboard-pages .right-wrapper .bottom-wrapper table .w-38 {
   width: 38%; }
+
+.faq-wrapper .card-accordion .card-header::after {
+  content: "\f068";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 600;
+  position: absolute;
+  top: 24px;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 21px;
+  color: #9b9b9b; }
+.faq-wrapper .card-accordion .card-header.collapsed::after {
+  content: '\f067'; }
+.faq-wrapper .nav {
+  background-color: #e6e6e7; }
+  .faq-wrapper .nav .nav-link {
+    border-bottom: 1px solid #a9a9a9;
+    border-radius: 0; }
+    .faq-wrapper .nav .nav-link.active {
+      background-color: #d6d6d6;
+      color: #2f313b; }
+    .faq-wrapper .nav .nav-link:hover {
+      color: #2f313b; }
+.faq-wrapper .card-accordion {
+  border-radius: 0; }
+  .faq-wrapper .card-accordion .card-body {
+    background-color: #e6e6e7; }
+.faq-wrapper .card-header {
+  color: #2f313b;
+  background-color: #d6d6d6; }
+.faq-wrapper .card-header:first-child {
+  border-radius: 0; }
 
 header .header-bottom .nav-item.dropdown.show, .second-header .nav-item.dropdown.show {
   background: #6eb8ba; }

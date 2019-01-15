@@ -433,13 +433,12 @@ $break-xxl: 1600px;
     padding: .75rem;
   }
 }
-
+.title-head.main-title {
+  background: #d6d6d6;
+  padding: 8px 15px;
+  margin-bottom: 10px;
+}
 .dashboard-pages {
-  & .title-head {
-    background: #d6d6d6;
-    padding: 8px 15px;
-    margin-bottom: 10px;
-  }
   & .left-wrapper {
     text-align: center;
     & .person-img {
@@ -533,6 +532,50 @@ $break-xxl: 1600px;
   }
 }
 
+//faq page
+.faq-wrapper{
+  .card-accordion .card-header::after {
+    content: "\f068";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    position: absolute;
+    top: 24px;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 21px;
+    color: #9b9b9b;
+  }
+  .card-accordion .card-header.collapsed::after {
+    content: '\f067';
+  }
+  .nav {
+    background-color: #e6e6e7;
+    & .nav-link{
+      border-bottom: 1px solid #a9a9a9;
+      border-radius: 0;
+      &.active{
+        background-color: #d6d6d6;
+        color: #2f313b;
+      }
+      &:hover{
+        color: #2f313b;
+      }
+    }
+  }
+  .card-accordion{
+    border-radius: 0;
+    & .card-body{
+      background-color: #e6e6e7;
+    }
+  }
+  .card-header{
+    color: #2f313b;
+    background-color: #d6d6d6;
+  }
+  .card-header:first-child{
+    border-radius: 0;
+  }
+}
 header .header-bottom, .second-header {
   & .nav-item.dropdown.show {
     background: #6eb8ba;
