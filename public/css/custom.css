@@ -77,6 +77,15 @@
   background-size: auto;
   top: 0; }
 
+.form-custom--control {
+  background-color: #d6d6d6;
+  height: 2rem;
+  border: none;
+  border-radius: 0; }
+  .form-custom--control:focus {
+    box-shadow: none;
+    background-color: #d6d6d6; }
+
 .form-reg-steps h1 {
   margin-bottom: 15px; }
 .form-reg-steps .form-group-title {
@@ -372,6 +381,62 @@
   background-color: #d6d6d6; }
 .faq-wrapper .card-header:first-child {
   border-radius: 0; }
+
+.contact-us-wrapper .contact-desc {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px; }
+.contact-us-wrapper .btn-send {
+  background-color: #02c894;
+  border-radius: 0;
+  border: none;
+  color: #fff; }
+  .contact-us-wrapper .btn-send:focus {
+    box-shadow: none; }
+.contact-us-wrapper .unit {
+  margin-bottom: 10px; }
+.contact-us-wrapper .social-icons li:last-of-type a {
+  margin-right: 0; }
+.contact-us-wrapper .social-icons a {
+  background-color: #2f313b;
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  color: white; }
+  .contact-us-wrapper .social-icons a:hover {
+    background-color: #02c894;
+    color: #2f313b; }
+
+.content-team-wrapper .single-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  font-family: 'object-fit: cover;'; }
+.content-team-wrapper .single-item h5 {
+  color: #02c894; }
+.content-team-wrapper .single-item .contact-info a:hover {
+  color: #2f313b; }
+
+.partners-wrapper .partners-wrap a {
+  display: block;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out; }
+  .partners-wrapper .partners-wrap a:hover {
+    opacity: 1; }
+.partners-wrapper .partners-wrap img {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  font-family: 'object-fit: contain;'; }
 
 header .header-bottom .nav-item.dropdown.show, .second-header .nav-item.dropdown.show {
   background: #6eb8ba; }

@@ -4,18 +4,34 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--favicon start-->
+    <link rel="apple-touch-icon" sizes="57x57" href="public/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="public/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="public/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="public/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="public/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="public/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="public/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="public/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="public/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="public/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/favicon/favicon-16x16.png">
+    <link rel="manifest" href="public/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--favicon end-->
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
           integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="public/plugins/select2/select2.min.css">
-    <!--<link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.min.css">-->
     <link rel="stylesheet" href="public/css/global.css">
     <link rel="stylesheet" href="public/css/main.css">
     <link rel="stylesheet" href="public/css/custom.css">
 
-
     <script src="public/js/jQuery3.3.1.js"></script>
-    <!--<script src="plugins/jquery-ui/jquery-ui.min.js"></script>-->
     <!--[if lt IE 9]>
     <script src="public/plugins/crossbrowserjs/html5shiv.js"></script>
     <script src="public/plugins/crossbrowserjs/respond.min.js"></script>
@@ -25,87 +41,107 @@
     <script src="public/plugins/crossbrowserjs/customFit.js"></script>
     <!--<![endif]-->
 </head>
-<body class="d-flex flex-column mh-100">
-<div class="container main-container">
-    <header class="main-header">
-        <div class="header-top d-flex">
-            <div class="header-top_left-wrap d-flex">
-                <a href="#" class="d-inline-flex align-items-center main-header_logo">
-                    <img src="public/img/main-logo.svg" alt="">
-                </a>
-                <div class="d-flex main-header_times-outer">
+<body>
+<div class="container main-container h-100">
+    <div class="d-flex flex-column h-100">
+        <header class="main-header">
+            <div class="header-top d-flex">
+                <div class="header-top_left-wrap d-flex">
+                    <a href="#" class="d-inline-flex align-items-center main-header_logo">
+                        <img src="public/img/main-logo.svg" alt="">
+                    </a>
+                    <div class="d-flex main-header_times-outer">
             <span class="main-header_time d-inline-flex align-items-center font-11 lh-1 text-white-clr">
                 Hong Kong  10 : 00 AM
             </span>
-                    <span class="main-header_time d-inline-flex align-items-center font-11 lh-1 text-white-clr">
+                        <span class="main-header_time d-inline-flex align-items-center font-11 lh-1 text-white-clr">
                 Europe Kong  15 : 00 AM
             </span>
-                    <span class="main-header_time d-inline-flex align-items-center font-11 lh-1 text-white-clr">
+                        <span class="main-header_time d-inline-flex align-items-center font-11 lh-1 text-white-clr">
                 USA  18 : 00 AM
             </span>
-                    <span class="main-header_time d-inline-flex align-items-center font-11 lh-1 text-white-clr">
+                        <span class="main-header_time d-inline-flex align-items-center font-11 lh-1 text-white-clr">
                 New Zeland  18 : 00 AM
             </span>
-                </div>
-            </div>
-
-            <div class="header-top_right-wrap ml-auto d-flex align-items-md-center">
-                <div class="main-header_login-reg-outer d-flex align-items-center">
-                    <a href="#" class="d-inline-block font-11 text-white-clr">Login</a>
-                    <span class="font-11 text-white-clr">&#47;</span>
-                    <a href="#" class="d-inline-block font-11 text-white-clr">Registration</a>
-                </div>
-                <select class="main-header_lang-select select-2 select-2--no-search" name="language" style="width: 30px">
-                    <option value="En">En</option>
-                    <option value="Fr">Fr</option>
-                    <option value="Ru">Ru</option>
-                    <option value="Ru">Es</option>
-                    <option value="Ru" selected>Ar</option>
-                </select>
-
-            </div>
-
-        </div>
-        <div class="header-bottom">
-            <nav class="navbar navbar-expand-md navbar-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarToggler">
-                    <div class="d-flex flex-md-row flex-column">
-                        <ul class="navbar-nav main-header_left_nav">
-                            <li class="nav-item active">
-                                <a class="nav-link text-uppercase main-transition" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-uppercase main-transition" href="#">Our Company</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-uppercase main-transition" href="#">GALLERY</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-uppercase main-transition" href="#">OUR PARTNERS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-uppercase main-transition" href="#">Contact us</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link text-uppercase main-transition" href="#">F.A.Q.</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-uppercase main-transition" href="#">Live</a>
-                            </li>
-                        </ul>
                     </div>
+                </div>
+
+                <div class="header-top_right-wrap ml-auto d-flex align-items-md-center">
+                    <div class="main-header_login-reg-outer d-flex align-items-center">
+                        <a href="#" class="d-inline-block font-11 text-white-clr">Login</a>
+                        <span class="font-11 text-white-clr">&#47;</span>
+                        <a href="#" class="d-inline-block font-11 text-white-clr">Registration</a>
+                    </div>
+                    <select class="main-header_lang-select select-2 select-2--no-search" name="language"
+                            style="width: 30px">
+                        <option value="En">En</option>
+                        <option value="Fr">Fr</option>
+                        <option value="Ru">Ru</option>
+                        <option value="Ru">Es</option>
+                        <option value="Ru" selected>Ar</option>
+                    </select>
 
                 </div>
-            </nav>
-        </div>
-    </header>
-    <main class="main-content-wrapper">
-        <div id="carouselHome" class="carousel slide main-carousel-wrapp" data-ride="carousel">
+
+            </div>
+            <div class="header-bottom">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <div class="d-flex flex-lg-row flex-column">
+                            <ul class="navbar-nav main-header_left_nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-uppercase main-transition" href="index.html">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link text-uppercase main-transition dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About us</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item text-uppercase" href="our-company.html">Our Company</a>
+                                        <a class="dropdown-item text-uppercase" href="our-team.html">Our Team</a>
+                                        <a class="dropdown-item text-uppercase" href="our-goals.html">Our Goals</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase main-transition" href="our-partners.html">OUR PARTNERS</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link text-uppercase main-transition dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">OUR Compensation plan</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item text-uppercase" href="our-bonus-sistem.html">Our Bonus sistem</a>
+                                        <a class="dropdown-item text-uppercase" href="our-carrier-plan.html">Our Carrier plan</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase main-transition" href="gallery.html">GALLERY</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase main-transition" href="contact-us.html">Contact us</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase main-transition" href="faq-page.html">F.A.Q.</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase main-transition" href="shop-page.html"><span class="mr-1">Shop</span><i class="fas fa-shopping-cart"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase main-transition" href="live-page.html">Live</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="main-content-wrapper">
+            <div id="carouselHome" class="carousel slide main-carousel-wrapp" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselHome" data-slide-to="1"></li>
@@ -123,75 +159,79 @@
                     </div>
                 </div>
             </div>
-        <div class="home-content-desc ">
-            <p class="txt-ident">OurTeamClub Ltd international trading company was founded in 2016 in Europe, it carries out various deals in international currency market. Using newest and experienced tools the company triggers the rapid growth of your currency in international financial market.</p>
+            <div class="home-content-desc ">
+                <p class="txt-ident">OurTeamClub Ltd international trading company was founded in 2016 in Europe, it carries out various deals in international currency market. Using newest and experienced tools the company triggers the rapid growth of your currency in international financial market.</p>
 
-            <p class="txt-ident">Millions of people trust the company the management of their means and they become the member of our large family. This is the company which gives large opportunity to everyone in international market to participate in different delas in international currency market.</p>
+                <p class="txt-ident">Millions of people trust the company the management of their means and they become the member of our large family. This is the company which gives large opportunity to everyone in international market to participate in different delas in international currency market.</p>
 
-            <p class="txt-ident">The market is a developing one where the trade is a round-day deal. The deals here are generally valued 4 trillion US dollars and it is 30 times more than the entire US stock market trading volume. In this financial huge market the participants gain their profit from currency, commodity price difference between purchase and sell resources. Everything seems very simple from the first sight: all we need is to buy cheap and sell expensive or sell expensive during the initial period and set a goal to buy cheap afterwards. By studing the offers in international market OurTeamClub Ltd has more competitive, trustful and mutually beneficial offers for its future partners. Adhering to the principles set aheadf, the company give a large opportunity to get to your goals and make them come true. Due to our company your means are increasing day by day. Don’t miss this opportunity to be present at online financial trade platform not as observer but as a an active participant.</p>
+                <p class="txt-ident">The market is a developing one where the trade is a round-day deal. The deals here are generally valued 4 trillion US dollars and it is 30 times more than the entire US stock market trading volume. In this financial huge market the participants gain their profit from currency, commodity price difference between purchase and sell resources. Everything seems very simple from the first sight: all we need is to buy cheap and sell expensive or sell expensive during the initial period and set a goal to buy cheap afterwards. By studing the offers in international market OurTeamClub Ltd has more competitive, trustful and mutually beneficial offers for its future partners. Adhering to the principles set aheadf, the company give a large opportunity to get to your goals and make them come true. Due to our company your means are increasing day by day. Don’t miss this opportunity to be present at online financial trade platform not as observer but as a an active participant.</p>
 
-            <p class="txt-ident">OurTeamClub Ltd will assist you and lead to get necessary knowledge, skills, experience, will help you to make self decisions and become one of the millions of people who already started to earn in international financial markets.</p>
+                <p class="txt-ident">OurTeamClub Ltd will assist you and lead to get necessary knowledge, skills, experience, will help you to make self decisions and become one of the millions of people who already started to earn in international financial markets.</p>
 
-            <p>“OurTeamClub” when trust is justified...</p>
-        </div>
-    </main>
-
-    <footer>
-        <div class="d-flex flex-lg-nowrap flex-wrap">
-            <div class="footer-logo-social">
-                <div class="footer-logo">
-                    <img src="public/img/main-logo.svg" alt="logo">
+                <p>“OurTeamClub” when trust is justified...</p>
+            </div>
+        </main>
+        <footer>
+            <div class="d-flex flex-lg-nowrap flex-wrap">
+                <div class="footer-logo-social">
+                    <div class="footer-logo">
+                        <img src="public/img/main-logo.svg" alt="logo">
+                    </div>
+                    <div class="footer-social">
+                        <ul class="d-flex flex-wrap justify-content-lg-end justify-content-center">
+                            <li><a href="#"
+                                   class="d-flex align-items-center justify-content-center rounded-circle text-main-clr"><i
+                                    class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"
+                                   class="d-flex align-items-center justify-content-center rounded-circle text-main-clr"><i
+                                    class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"
+                                   class="d-flex align-items-center justify-content-center rounded-circle text-main-clr"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="footer-social">
-                    <ul class="d-flex flex-wrap justify-content-lg-end justify-content-center">
-                        <li><a href="#" class="d-flex align-items-center justify-content-center rounded-circle text-main-clr"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#" class="d-flex align-items-center justify-content-center rounded-circle text-main-clr"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#" class="d-flex align-items-center justify-content-center rounded-circle text-main-clr"><i class="fab fa-facebook-f"></i></a></li>
+                <div class="footer-menu-copyright">
+                    <ul class=" nav footer-menu font-main-bold font-11">
+                        <li>
+                            <a href="#">Site Map</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Disclaimer</a>
+                        </li>
+                        <li>
+                            <a href="#">Term of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Social Media Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Code of Ethics</a>
+                        </li>
+                        <li>
+                            <a href="#">Earning and Income</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
                     </ul>
-                </div>
-            </div>
-            <div class="footer-menu-copyright">
-                <ul class=" nav footer-menu font-main-bold font-11">
-                    <li>
-                        <a href="#">Site Map</a>
-                    </li>
-                    <li>
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#">Disclaimer</a>
-                    </li>
-                    <li>
-                        <a href="#">Term of Use</a>
-                    </li>
-                    <li>
-                        <a href="#">Social Media Policy</a>
-                    </li>
-                    <li>
-                        <a href="#">Code of Ethics</a>
-                    </li>
-                    <li>
-                        <a href="#">Earning and Income</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact us</a>
-                    </li>
-                </ul>
-                <div class="d-flex flex-wrap footer-copyright-secured font-11 text-white-clr">
-                    <div class="footer-copyright">
-                        <p class="mb-0 opc-3">Copyright &#9400; 2016 OurTeamClub Ltd. All rights reserved </p>
-                    </div>
-                    <div class="footer-secured d-flex">
-                        <span class="opc-3">Website Secured By</span>
-                        <img class="align-self-baseline" src="public/img/logo-secure.png" alt="secured">
+                    <div class="d-flex flex-wrap footer-copyright-secured font-11 text-white-clr">
+                        <div class="footer-copyright">
+                            <p class="mb-0 opc-3">Copyright &#9400; 2016 OurTeamClub Ltd. All rights reserved </p>
+                        </div>
+                        <div class="footer-secured d-flex">
+                            <span class="opc-3">Website Secured By</span>
+                            <img class="align-self-baseline" src="public/img/logo-secure.png" alt="secured">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-
+        </footer>
+    </div>
 </div>
-
 
 <script src="public/js/bootstrap.bundle.min.js"></script>
 <script src="public/plugins/select2/select2.full.min.js"></script>
