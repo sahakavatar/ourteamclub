@@ -16,11 +16,11 @@
   .main-carousel-wrapp .carousel-indicators li.active {
     background-color: #fff; }
 
-.home-content-desc {
+.company-content-desc {
   text-align: justify;
   padding: 40px 20px;
   background-color: #f5f5f5; }
-  .home-content-desc .txt-ident {
+  .company-content-desc .txt-ident {
     text-indent: 50px;
     margin-bottom: 25px; }
 
@@ -345,10 +345,20 @@
   border-bottom: 3px solid #ebebeb; }
 .dashboard-pages .right-wrapper .bottom-wrapper table tfoot {
   background-color: #e6e6e7; }
-.dashboard-pages .right-wrapper .bottom-wrapper table .pr-100 {
-  padding-right: 100px; }
+@media screen and (min-width: 768px) {
+  .dashboard-pages .right-wrapper .bottom-wrapper table .pr-100 {
+    padding-right: 100px; } }
 .dashboard-pages .right-wrapper .bottom-wrapper table .w-38 {
   width: 38%; }
+
+.home-content-wrapper {
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+  .home-content-wrapper video {
+    height: 100%;
+    object-fit: cover;
+    font-family: 'object-fit: cover;'; }
 
 .faq-wrapper .card-accordion .card-header::after {
   content: "\f068";

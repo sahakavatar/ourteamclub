@@ -119,6 +119,7 @@ color: #fff !important;
     .main-header_times-outer {
         background: url("../img/time-icon.png") left top no-repeat;
         /*flex-direction: column;*/
+        flex-wrap: wrap;
     }
 
     .main-header_time {

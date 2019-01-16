@@ -33,7 +33,7 @@ $break-xxl: 1600px;
   }
 }
 
-.home-content-desc {
+.company-content-desc {
   text-align: justify;
   padding: 40px 20px;
   background-color: #f5f5f5;
@@ -535,7 +535,9 @@ $break-xxl: 1600px;
           background-color: #e6e6e7;
         }
         & .pr-100 {
-          padding-right: 100px;
+          @media screen and (min-width: $break-md) {
+            padding-right: 100px;
+          }
         }
         & .w-38 {
           width: 38%;
@@ -544,7 +546,17 @@ $break-xxl: 1600px;
     }
   }
 }
-
+//home page
+.home-content-wrapper{
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  & video{
+    height: 100%;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+  }
+}
 //faq page
 .faq-wrapper {
   .card-accordion .card-header::after {
@@ -787,6 +799,7 @@ footer {
     }
   }
 }
+
 
 @media (max-width: 767px) {
   .main-header .navbar-nav .nav-item .nav-link:hover {
